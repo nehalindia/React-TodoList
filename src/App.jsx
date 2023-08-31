@@ -1,8 +1,31 @@
 import "./style.css"
-export default function App() {
-  // const [count, setCount] = useState(0)
+import { useState } from "react"
 
-  return " hi"
+export default function App() {
+  const [newItem, setNewItem] = useState(0)
+
+  return (
+  <>
+  <form className="new-item-form">
+    <div className="form-row">
+      <label htmlFor="item">New Item</label>
+      <input type="text" id="item" />
+    </div>
+    <button className="btn">Add Item</button>
+  </form>
+
+  <h1 className="header">To Do List</h1>
+  <ul className="list">
+    <li>
+      <label>
+        <input type="checkbox" />
+        Item 1
+      </label>
+      <button className="btn btn-danger">Delete</button>
+    </li>
+  </ul>
+  </>
+  )
   // (
   //   <>
   //     <h1>Vite + React + Nehal.</h1>

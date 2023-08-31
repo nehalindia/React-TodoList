@@ -22,6 +22,11 @@
     flex-direction: column;
     gap: 0.1rem;
   }
+
+  #item {
+    border: 2px solid;
+    border-radius: 5px;
+  }
   
   .btn {
     background: hsl(200, 100%, 50%, 0.1);
