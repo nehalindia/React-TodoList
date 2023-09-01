@@ -73,7 +73,7 @@
     margin-bottom: 0.5rem;
   }
   
-  .list {
+  /* .list {
     margin: 0;
     padding: 0;
     margin-left: 1rem;
@@ -142,4 +142,4 @@
   
   .list li:has(input:checked) label:hover::before {
     background: hsl(200, 100%, 30%);
-  }
+  } */
